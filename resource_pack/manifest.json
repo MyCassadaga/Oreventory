@@ -1,0 +1,17 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Orevintory Resource Pack",
+    "description": "Minimal resources for Orevintory.",
+    "uuid": "d21603ab-6570-46e9-847b-1506b4b4d1f3",
+    "version": [1, 0, 0],
+    "min_engine_version": [1, 20, 40]
+  },
+  "modules": [
+    {
+      "type": "resources",
+      "uuid": "21ad0c9d-00c1-48eb-afc0-82c1fe1e3f2f",
+      "version": [1, 0, 0]
+    }
+  ]
+}
