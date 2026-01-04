@@ -1,0 +1,38 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Orevintory Behavior Pack",
+    "description": "Per-player ore bank for bulk metal smelting.",
+    "uuid": "1d8f9b98-f53a-4d56-bd30-8dada83e5d5b",
+    "version": [1, 0, 0],
+    "min_engine_version": [1, 20, 40]
+  },
+  "modules": [
+    {
+      "type": "data",
+      "uuid": "82cb8b9d-1ec5-429f-85af-8127f2ade694",
+      "version": [1, 0, 0]
+    },
+    {
+      "type": "script",
+      "language": "javascript",
+      "uuid": "0ae80dcf-f379-4ee5-bf82-cddcff2da331",
+      "version": [1, 0, 0],
+      "entry": "scripts/main.js"
+    }
+  ],
+  "dependencies": [
+    {
+      "uuid": "d21603ab-6570-46e9-847b-1506b4b4d1f3",
+      "version": [1, 0, 0]
+    },
+    {
+      "module_name": "@minecraft/server",
+      "version": "1.10.0-beta"
+    },
+    {
+      "module_name": "@minecraft/server-ui",
+      "version": "1.2.0-beta"
+    }
+  ]
+}
